@@ -1,0 +1,884 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+
+}
+body{
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+
+/* some defoult design are here */
+
+.container{
+    width: 80%;
+    margin: 5rem auto;
+}
+p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+
+
+
+
+
+/*  header section design start here */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 800;
+    font-style: italic;
+    color: #E6533C;
+}
+.menu-item{
+    border: 0.2px solid rgba(255, 255, 255, 0.223);
+    padding: 12px 4px;
+    border-radius: 40px;
+}
+.menu-item ul{
+    max-width: 470px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2.9rem;
+    padding-left: 0;
+    padding-right: 20px;
+}
+.menu-item ul li{
+    list-style: none;
+}
+.menu-item ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.12rem;
+}
+.menu-icon{
+    display: none;
+}
+
+.home{
+    background-color: #E6533C;
+    padding: 8px 20px;
+    border-radius: 46px;
+}
+
+
+
+/* banner content design start here */
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    margin-top: 5rem;
+    width: 50%;
+}
+.banner-content h1{
+    font-size: 4.9rem;
+    line-height: 120%;
+}
+.banner-content p{
+    margin: 1.8rem 0rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.shape{
+    font-family : Miama , sans-serif;
+    font-style : italic;
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.btn-1, .btn-2{
+    padding: 1rem 2.9rem;
+    border-radius: 42px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.btn-1{
+    background-color: #E6533C;
+    margin-right: 1rem;
+}
+.btn-2{
+    background-color: #000000;
+    border: 1px solid white;
+}
+.banner-img{
+    position: relative;
+}
+
+.count-video{
+    display: flex;
+    justify-content: space-between;
+}
+.circle{
+    background-color: #E6533C;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.video-tutorial{
+    background-color: rgba(48, 48, 48, 0.54);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+    position: absolute;
+    left: -115px;
+    bottom: 100px;
+    
+}
+.workout-video{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    align-items: center;
+    position: absolute;
+    right: -50px;
+    bottom: 370px;
+    
+}
+
+
+
+
+/* change habit section start here */
+
+.change-habits{
+    width: 80%;
+    margin: auto;
+}
+
+.change-habits .description{
+    text-align: center;
+    margin-bottom: 58px;
+}
+.description h2{
+    font-size: 3rem;
+    font-weight: black;
+    margin-bottom: 14px;
+}
+.description p{
+    font-size: 14px;
+}
+
+/* practicable class design here */
+
+
+.practicable{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* justify-content: space-between; */
+    gap: 40px;
+}
+.practicable-item{
+    padding: 0px 26px;
+    text-align: center;
+    /* width: 25%; */
+}
+.practicable-item img{
+    width: 100%;
+    height: 180px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+.practicable-item h4{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.practicable-item p{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+
+
+
+
+/* run section start here */
+
+.run{
+
+    width: 80%;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(34, 34, 34, 1);
+    padding: 30px;
+    gap: 10rem;
+    border-radius: 18px;
+}
+
+
+.run-img img{
+    height: 312px;
+    width: 366px;
+    object-fit: none;
+    object-position: 68% 30%;
+    border-radius: 18px;
+}
+.run-description{
+    margin-left: 55px;
+}
+.run-description h2{
+    font-size: 48px;
+    font-weight: black;
+    margin-bottom: 14px;
+}
+.run-description  p{
+    line-height: 24px;
+}
+.run-description button{
+    background-color: #E6533C;
+    padding: 16px 60px;
+    border-radius: 42px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+
+
+
+/* training section start here */
+
+.training{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 88px;
+}
+.training-description h2{
+    font-size: 3rem;
+    font-weight: black;
+    line-height: 120%;
+    margin-bottom: 14px;
+}
+.training-description p{
+    margin-bottom: 60px;
+    font-size: 14px;
+}
+.exercise-img img{
+    width: 100%;
+    height: 250px;
+}
+.exercise-img-row-1{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1.5fr ;
+}
+.exercise-img-row-2{
+    display: grid;
+    grid-template-columns: 1.6fr 1fr 1.4fr ;
+}
+#img{
+    position: relative;
+}
+/* #img img{
+    object-fit: cover;
+    object-position: 80% 30%;
+} */
+
+.common-position{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2; 
+
+}
+.overlay-1 {
+    background-color:rgba(6, 255, 210, 0.5);
+} 
+.overlay-2 {
+    background-color:rgba(255, 0, 0, 0.3);
+} 
+.overlay-3 {
+    background-color:rgba(0, 0, 0, 0.5);
+} 
+.overlay-4 {
+    background-color:rgba(0, 0, 0, 0.5);
+} 
+.overlay-5 {
+    background-color:rgba(66, 255, 0, 0.3);
+
+} 
+.overlay-6 {
+    background-color:rgba(0, 71, 255, 0.3);
+} 
+
+.text-1{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    z-index: 100;
+    width: 60%;
+
+}
+.text-2{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    z-index: 100;
+}
+.text-3{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 40%;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    z-index: 100;
+}
+
+
+
+/* BMI calculator design start here */
+.calculator-heading{
+    margin: 88px auto;
+    width: 50%;
+}
+
+.calculator-heading h2{
+    font-size: 3rem;
+    font-weight: black;
+    line-height: 120%;
+    margin-bottom: 14px;
+}
+
+.calculator{
+    background-color: rgba(34, 34, 34, 1);
+}
+.calculator-block{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(34, 34, 34, 1);
+    
+}
+.calculator-chart, .calculate-bmi{
+    padding: 50px 0px;
+    width: 50%;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 20px;
+    padding-right: 25px;
+
+}
+
+.chart-title{
+    font-size: 1.8rem;
+    font-weight: black;
+    line-height: 120%;
+    margin-bottom: 50px;
+}
+
+.calculate-bmi-heading h3{
+    font-size: 1.8rem;
+    font-weight: black;
+    line-height: 120%;
+    margin-bottom: 14px;
+}
+.calculate-bmi-heading p{
+    font-size: 0.9rem;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-bottom: 34px;
+}
+
+
+
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.form-row input,
+.form-row select,
+.activity{
+    padding: 12px 0px 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    box-sizing: border-box;
+}
+select option{
+    color: #000000;
+}
+
+
+.activity{
+    width: 100%;
+    margin-bottom: 34px;
+}
+
+.btn{
+    padding: 1rem 4rem;
+    border-radius: 42px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #E6533C;
+}
+
+
+
+
+/* team members section designed here */
+
+.team{
+    width: 80%;
+    margin: 88px auto;
+}
+
+.team-heading{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.team-heading h2{
+    font-size: 3rem;
+    font-weight: black;
+    line-height: 120%;
+    margin-bottom: 14px;
+}
+.team-heading p{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.team-members{
+    background-color: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 18px;
+}
+.team-member{
+    width: 100%;
+    position: relative;
+    
+}
+.team-member img{
+    width: 100%;
+    height: 300px;
+    border-radius: 18px;
+  
+    
+}
+.name{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.name h3{
+    font-size: 20px;
+    font-weight: black;
+    line-height: 120%;
+}
+
+
+
+/* challenge section Newsletter start here */
+#newsletter{
+   
+    background-image: url(images/b14.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+    margin-bottom: 80px;
+}
+.newsletter-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px 0px;
+}
+.newstext h4{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 14px;
+    line-height: 120%;
+}
+.newstext p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea0;
+}
+.newstext p span{
+
+    color: #ffbd27;
+}
+
+.newsletter-form{
+    display: flex;
+    width: 40%;
+}
+
+.newsletter-form input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 70%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.button{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+.newsletter-form button{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 40%;
+    
+}
+
+
+/* footer section designed here */
+
+footer{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0px;
+}
+.footer-description{
+    width: 35%;
+}
+.footer-description h2{
+    font-size: 4rem;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(230, 83, 60, 1);
+}
+.footer-description p{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+
+
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.footer-services ul,
+.plartforms ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-services h4,
+.plartforms h4{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 40px;
+}
+
+.list li{
+    list-style: none;
+    margin-bottom: 20px;
+    
+}
+.list li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+hr{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.footer-bottom{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size:1.25rem;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+
+
+/* responsive media query for mobile device */
+/* responsive media query for mobile device */
+/* responsive media query for mobile device */
+
+@media screen and (max-width: 576px) {
+
+    .container{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .menu-item{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+
+    }
+    .menu-icon i{
+        font-size: 2rem;
+    }
+    .banner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-content,
+    .banner-img{
+        text-align: center;
+        width: 100%;
+    }
+
+    .banner-content h1{
+        font-size: 2rem;
+    }
+
+    .buttons{
+        display: flex;
+    }
+    .btn-1, .btn-2{
+        padding: 1rem 2.5rem;
+    }
+    .video-tutorial{
+        left: 40px;
+    }
+    .workout-video{
+        
+        right: 50px;
+    }
+
+    /* change habit design start here */
+
+    .change-habits{
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .description{
+        padding: 0px 10px;
+        text-align: center;
+    }
+    .description h2{
+        font-size: 2rem;
+    }
+    .practicable{
+        grid-template-columns: 1fr;
+        padding: 0px 30px;
+        text-align: center;
+    }
+    .practicable-item img{
+        width: 180px;
+        height: 180px;
+    }
+    .run{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+        gap: 3rem;
+    }
+    .run-description{
+        margin: 0px;
+    }
+    .run-img img{
+        height: 312px;
+        width: 100%;
+        object-fit: none;
+        object-position: 68% 30%;
+        border-radius: 18px;
+    }
+
+
+    .training{
+        display: none;
+    }
+   
+
+
+
+
+    /* calculator section */
+    .calculator-heading{
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .calculator-block{
+        width: 100%;
+        padding: 0px 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .calculator-chart, .calculate-bmi{
+        width: 100%;
+    }
+    table{
+        margin: auto;
+    }
+    .calculate-bmi{
+        width: 90%;
+    }
+    .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        
+        gap: 12px;
+        margin-bottom: 12px;
+    }
+
+    .activity{
+        width: 100%;
+    }
+
+    /* team section */
+    .team{
+        width: 100%;
+    }
+    .team-members{
+        grid-template-columns: 1fr;
+    }
+
+    /* newsletter */
+    .newsletter-content{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .newsletter-form{
+        width: 100%;
+        margin-top: 14px;
+    }
+    .newstext h4{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    /* foter sectio */
+    .footer-content{
+        width: 100%;
+        flex-direction: column;
+        padding: 70px 20px;
+    }
+    .footer-description{
+        width: 90%;
+        max-width: 550px;
+        min-width: none;
+        padding-right: 36px;
+    
+    }
+    .footer-menu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    hr{
+        width: 90%;
+    }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 470px) {
+    .form-row input,
+    .form-row select{
+        min-width: 130px;
+        max-width: 370px;
+        gap: 10px;
+
+}
+
+}
+@media screen and (min-width: 900px) and (max-width: 1240px) {
+    .btn-1, .btn-2{
+        padding: .8rem 1.5rem;
+    }
+    .video-tutorial{
+        left: -40px;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: row;
+    }
+    .practicable{
+        gap: 20px;
+    }
+    .practicable-item{
+        padding: 0px 16px;
+    }
+}
+
+
+
